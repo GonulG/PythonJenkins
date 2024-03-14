@@ -35,10 +35,10 @@ pipeline {
     }
 
     post{
-        always{
-            echo 'Automation Process finished...'
+            always{
+                echo 'Automation Process finished...'
+            }
         }
     }
-
 
 }
